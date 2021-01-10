@@ -1,12 +1,52 @@
 body {
-  background-color: purple;
+  background-color: darkorchid;
 }
 
-.fav-dino {
-  height: 30em;
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-profile {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+  transition: 0.3s;
+  width: 40%;
+  background-image: url(https://cdn.shopify.com/s/files/1/0092/2712/products/dyathinkesaurus_white_800x.jpg?v=1568667407);
+  padding: 1em;
+  margin: 2em;
+}
+
+.card-dino {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+  transition: 0.3s;
+  width: 40%;
+  background-image: url(https://cdn.shopify.com/s/files/1/0092/2712/products/dyathinkesaurus_white_800x.jpg?v=1568667407);
+  opacity: .9;
+  padding: 1em;
+  margin: 2em;
+}
+
+img {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+  transition: 0.3s;
+
+}
+
+h4 {
+  font-size: 2em;
+}
+
+
+p {
+  background-color: whitesmoke;
+  padding: 1em;
 }
 
 footer {
   background-color: black;
   color: white;
+  font-size: 12x;
+  margin-top: 10px;
+  padding: 20px;
+  text-align: center;
 }
